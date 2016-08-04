@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+	<!-- link stylesheet  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+	
+	<!--Viewport - Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+<div class="container"> 
+<!-- Logo and intro -->
+		<div class="row" id="jumbotron">
+	      <div class="col s12">
+			<img src="./css/images/aJd.png" alt="Mean Stack" height="300" width="300" id="ajd_logo">
+	      </div>
+	    </div>  
+	    
+	    <div class="col s12" id="hmPgIntro">
+	      	<h4>A resource for YOU to become an AWSOME Full Stack Developer in Austin, TX.<br> Get connected to mentors in the industry, learn what Full Stack is, get connected to tutorials, get connected to Full Stack Developer schools.</h4>
+	    </div>
+	    
+
+	
+<!-- icon part Mentor, Find a Mentor, Resources,  -->
+		<div class="row" id="hmPgMain">
+	    <hr>  
+	      <div class="col s4">
+	      	<div class="card-panel" id="hmPgcard"> <!--Hoverable Card Panel-->
+	      		<i class="material-icons" id="icon">groups</i>
+	      			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+				
+					<div id="mentormodal">
+					<!-- Modal Trigger -->
+	  					<a id="open-model" class=" waves-effect waves-light btn modal-trigger" href="#modal1">Sign Up</a>
+							<div id="modal1" class="modal">
+							<!-- Modal Structure -->
+								<div class="modal modal-fixed-footer">
+								    <div class="modal-content">
+									
+									<!-- Modal Form -->
+											<div class="row">
+											    <form class="col s12">
+											      <div class="row">
+											        <div class="input-field col s6">
+											          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+											          <label for="first_name">First Name</label>
+											        </div>
+											        <div class="input-field col s6">
+											          <input id="last_name" type="text" class="validate">
+											          <label for="last_name">Last Name</label>
+											        </div>
+											      </div>
+											      <div class="row">
+											        <div class="input-field col s12">
+											          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+											          <label for="disabled">Disabled</label>
+											        </div>
+											      </div>
+											      <div class="row">
+											        <div class="input-field col s12">
+											          <input id="password" type="password" class="validate">
+											          <label for="password">Password</label>
+											        </div>
+											      </div>
+											      <div class="row">
+											        <div class="input-field col s12">
+											          <input id="email" type="email" class="validate">
+											          <label for="email">Email</label>
+											        </div>
+											      </div>
+											    </form>
+  											</div>
+								      		<h4>Modal Header</h4>
+								      		<p>A bunch of text</p>
+								    
+
+
+								    </div>
+								    <div class="modal-footer">
+								      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+								    </div>
+								</div>	      			
+							</div>
+
+					</div>
+	        
+
+	        </div>	
+	      </div>
+
+
+
+
+
+
+	      <div class="col s4">
+		    <div class="card-panel hoverable" id="hmPgcard"> <!--Hoverable Card Panel-->
+		      	<i class="material-icons" id="icon">flash_on</i>
+		      		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p> 
+		    </div>  
+	      </div>
+	      <div class="col s4">
+	      	<div class="card-panel hoverable" id="hmPgcard"> <!--Hoverable Card Panel-->
+		      	<i class="material-icons" id="icon">settings</i>
+		      	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. </p>
+	        </div>
+	      </div>
+	    <hr>
+	    </div>
+		
+<!-- MEAN & MERN definitions  -->
+		<div id="chooseStack">
+			<div class="col s12">
+				<div class="col s6 push-s6"><span class="flow-text">
+					<img src="./css/images/mean_N_277X167.png" alt="Mean Stack" height="150" width="325"><h5>MEAN Stack</h5>
+				</span></div>	
+				<div class="col s6 push-s6"><span class="flow-text">
+					<img src="./css/images/mern_js_277X167.png" alt="MERN STACK" height="150" width="325"><h5>MERN Stack</h5>
+					</span>
+				</div>
+				<!-- <div id="chooseStack">MEAN<br>stack</div>
+				<div id="chooseStack">MERN<br>stack</div> -->
+		    </div>
+		</div>
+
+		<hr>
+		<div class="row">
+	      	<div class="col s7 push-s5"><span class="flow-text"><p>MongoDB is an open source, document-oriented database designed with both scalability and developer agility in mind. Instead of storing your data in tables and rows as you would with a relational database, in MongoDB you store JSON-like documents with dynamic schemas.</p></span></div>
+	      	<div class="col s5 pull-s7" id="stacks"><span class="flow-text" ><img src="./css/images/MongoDB.png" alt="Mongo DB" height="85" width="300"></span></div>
+	    </div>
+		<hr>
+
+		<div class="row">
+	      	<div class="col s7 push-s5"><span class="flow-text"><p>Express 3.x is a light-weight web application framework to help organize your web application into an MVC architecture on the server side. You can use a variety of choices for your templating language (like EJS, Jade, and Dust.js)</p></span></div>
+	      	<div class="col s5 pull-s7" id="stacks"><span class="flow-text"><img src="./css/images/expressJS.png" alt="Express.js" height="35" width="200"></span></div>
+	    </div>
+		<hr>
+
+	    <div class="row">
+	      	<div class="col s7 push-s5"><span class="flow-text"><p>AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write.</p></span></div>
+	      	<div class="col s5 pull-s7" id="stacks"><span class="flow-text"><img src="./css/images/AngularJS.png" alt="Angular.js" height="75" width="300"></span></div>
+	    </div>
+		<hr>
+
+	    <div class="row">
+	      	<div class="col s7 push-s5"><span class="flow-text"><p>React (sometimes styled React.js or ReactJS) is an open-source JavaScript library providing a view for data rendered as HTML. React views are typically rendered using components that contain additional components specified as custom HTML tags.</p></span></div>
+	      	<div class="col s5 pull-s7" id="stacks"><span class="flow-text"><img src="./css/images/reactJS.png" alt="React.js" height="75" width="300"></span></div>
+	    </div>
+		<hr>
+
+		<div class="row">
+	      	<div class="col s7 push-s5"><span class="flow-text"><p>Node.js is an open-source, cross-platform runtime environment for developing server-side Web applications. Although Node.js is not a JavaScript framework, many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript.</p></span></div>
+	      	<div class="col s5 pull-s7" id="stacks"><span class="flow-text"><img src="./css/images/nodeJS.png" alt="Node.js" height="65" width="300"></span></div>
+			
+		</div> <!--end of master container dive -->
+		<hr>
+</div>
+
+	
+	
+	
+	<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- jQuery -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+		
+
+	<!-- materialize js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.js"></script>
+	
+    <!-- js -->
+	<script type="text/javascript" src="js/materialize.js"></script>
+
+
+</body>
+</html>

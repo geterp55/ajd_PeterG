@@ -1,0 +1,101 @@
+
+/* color scheme
+HSL  
+	$color1: hsla(200%, 100%, 99%, 1);
+	$color2: hsla(200%, 9%, 20%, 1);
+	$color3: hsla(191%, 55%, 53%, 1);
+	$color4: hsla(201%, 38%, 29%, 1);
+	$color5: hsla(203%, 17%, 51%, 1);
+RGB 
+	$color1: rgba(249, 253, 255, 1);
+	$color2: rgba(47, 53, 56, 1);
+	$color3: rgba(70, 177, 201, 1);
+	$color4: rgba(46, 82, 102, 1);
+	$color5: rgba(110, 136, 152, 1);
+
+hex
+	#fafdff (white)
+	#2e3538 (gray)
+	#45b1c9 (light blue)
+	#2e5266 (pale blue)
+	#6d8797 (between light blue & pale blue)
+*/
+
+
+body{
+	background-color: #6d8797;
+	color: #fafdff;
+	/*background-color:#F5F5DC;*/
+
+}
+
+
+#jumbotron {
+	height: auto;
+	
+}
+
+#hmPgIntro {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+
+#ajd_logo{	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#hmPgMain{
+	height: 500px;
+	margin-bottom: 50px;
+	border-bottom-color: #2e3538;
+	font-size: 20px;
+}
+
+
+#hmPgcard {
+	background-color: #2e3538;
+	color: #fafdff;
+	text-align: center;
+	height: 400px;
+}
+
+#icon{
+	color: #fafdff;
+	font-size: 75px;
+}
+
+#chooseStack {
+	display: block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	font-size: 5px;
+}
+
+
+#stacks {
+	margin-top: 5%;
+	margin-bottom: auto;
+}
+
+
+
+.lean-overlay {
+/*position: fixed;*/
+z-index: 500;
+top: 100px;
+left: 100px;
+height:30%;
+width:30%;
+background: #fafdff;
+/*display: none;*/
+}
+
+
+
+
+
