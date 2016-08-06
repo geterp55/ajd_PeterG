@@ -18,35 +18,65 @@
 </head>
 
 <body>
-<div class="container"> 
-<!-- Logo and intro -->
+<div class="white navbar-fixed">
+    <nav class="blue-grey lighten-1">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><img src="./css/images/aJd_logo_white.png" alt="Mean Stack" height="45%" width="45%" id="ajd_logo"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">Mission</a></li>
+          <li><a href="badges.html">Team</a></li>
+          <li class="active"><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
 		<div class="row" id="jumbotron">
 	      <div class="col s12">
-			<img src="./css/images/aJd.png" alt="Mean Stack" height="300" width="300" id="ajd_logo">
+			<img src="./css/images/aJrdevs.png" alt="Mean Stack" height="auto" width="100%" id="ajd_logo">
+			<!-- <h1>Austin Jr. Full Stack Developers</h1> -->
 	      </div>
-	    </div>  
-	    
+	    </div>
+
+
+<div class="container"> 
+<!-- Logo and intro -->
+		<!-- <div class="row" id="jumbotron">
+	      <div class="col s12">
+			<img src="./css/images/austin_square.jpg" alt="Mean Stack" height="425" width="1280" id="ajd_logo">
+	      </div>
+	    </div>   -->
+	    <!-- <div class="col 12" id="alertmessage">
+			<div>
+				Become a web developer
+			</div>
+	    </div> -->
+
 	    <div class="col s12" id="hmPgIntro">
-	      	<h4>A resource for YOU to become an AWSOME Full Stack Developer in Austin, TX.<br> Get connected to mentors in the industry, learn what Full Stack is, get connected to tutorials, get connected to Full Stack Developer schools.</h4>
+	      	<!-- <h5>A resource for YOU to become an AWSOME Full Stack Developer in Austin, TX.<br> Get connected to mentors in the industry, learn what Full Stack is, get connected to tutorials, get connected to Full Stack Developer schools.</h5> -->
 	    </div>
 	    
 
 	
 <!-- icon part Mentor, Find a Mentor, Resources,  -->
-		<div class="col s12 m12 l12">
+		<div class="row">
 			
 		<!-- First Card with Modal -->
-			<div class="row">
+			<!-- <div class="row"> -->
 		        <div class="col s4 m4">
 		          <div class="card blue-grey darken-1">
 		            <div class="card-content white-text">
 		              <!-- <span class="card-title">Card Title</span> -->
 		              <i class="material-icons" id="icon">groups</i>
-		              <p>I am a very simple card. I am good at containing small bits of information.
-		              I am convenient because I require little markup to use effectively.</p>
+			              <div class="cardtitle">
+			              	Git Schooled
+			              </div>
+		              	<div class="cardfont">
+		              		GIT SCHOOLED SON!!!! Connect with a local Full Stack Developer to help you on your journey on becoming a kick ass Full Stack Developer.
+		              	</div>
 		            </div>
 		            	<!-- Modal Trigger -->
-					  <a id="open-model" class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
+					  <a id="open-model" class="modal-trigger waves-effect waves-light yellow darken-1 btn black-text"  href="#modal1">Sign Up</a>
 
 					  <!-- Modal Structure -->
 						  <div id="modal1" class="modal modal-fixed-footer">
@@ -56,34 +86,36 @@
 											    <form class="col s12">
 											      <div class="row">
 											        <div class="input-field col s6">
-											          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+											          <input id="first_name" type="text" class="validate" aria-required="true" required>
 											          <label for="first_name">First Name</label>
 											        </div>
+											      <!-- </div>  --> 
+											      <!-- <div class="row">  --> 
 											        <div class="input-field col s6">
-											          <input id="last_name" type="text" class="validate">
+											          <input id="last_name" type="text" class="validate" aria-required="true" required>
 											          <label for="last_name">Last Name</label>
 											        </div>
 											      </div>
 											      <div class="row">
-											        <div class="input-field col s12">
-											          <input id="gitHub" type="text" class="validate">
+											        <div class="input-field col s6">
+											          <input id="gitHub" type="text" class="validate" aria-required="true" required>
 											          <label for="gitHub">gitHub</label>
 											        </div>
-											      </div>
-											      <div class="row">
-											        <div class="input-field col s12">
-											          <input id="password" type="password" class="validate">
-											          <label for="password">Password</label>
-											        </div>
-											      </div>
-											      <div class="row">
-											        <div class="input-field col s12">
-											          <input id="email" type="email" class="validate">
+											      <!-- </div> -->
+											      <!-- <div class="row"> -->
+											        <div class="input-field col s6">
+											          <input id="email" type="email" class="validate" aria-required="true" required>
 											          <label for="email">Email</label>
 											        </div>
 											      </div>
+											      <!-- <div class="row">
+											        <div class="input-field col s6">
+											          <input id="email" type="email" class="validate" aria-required="true" required>
+											          <label for="email">Email</label>
+											        </div>
+											      </div> -->
 
-													<p>Please: Check the box on the technologies you know and use the<br> slider to grade your knowledge.
+													<p>Please: Check the box on the technologies you know and use the slider to grade your knowledge.
 														Legend:
 														1 = Rock Star
 														2 = Stage Hand
@@ -129,25 +161,29 @@
 						    
 						    </div>
 						    <div class="modal-footer">
-						      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+						      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Submit</a>
 						    </div>
 						  </div>	
 		          </div>
 		        </div>
-      		</div>		
+      		<!-- </div> -->		
 			
 			<!-- Second Card with Modal -->
-			<div class="row">
+			<!-- <div class="row"> -->
 		        <div class="col s4 m4">
 		          <div class="card blue-grey darken-1">
 		            <div class="card-content white-text">
 		              <!-- <span class="card-title">Card Title</span> -->
-		              <i class="material-icons" id="icon">flash_on</i>
-		              <p>I am a very simple card. I am good at containing small bits of information.
-		              I am convenient because I require little markup to use effectively.</p>
+		              <i class="material-icons" id="icon">school</i>
+			            <div class="cardtitle">
+			              	Be A Mentor
+			             </div>
+		              	<div class="cardfont">
+		              		Lend your helping hand in schooling newbies to becoming Full Stack Developers.  Use your expertise to foster industry growth in Austin and place more smiles on puzzled faces.
+		              	</div>
 		            </div>
 		            	<!-- Modal Trigger -->
-					  <a id="open-model2" class="modal-trigger waves-effect waves-light btn" href="#modal2">Modal</a>
+					  <a id="open-model2" class="modal-trigger waves-effect waves-light yellow darken-1 btn black-text" href="#modal2">Sign Up</a>
 
 					  <!-- Modal Structure -->
 						  <div id="modal2" class="modal modal-fixed-footer">
@@ -195,7 +231,7 @@
 						  </div>	
 		          </div>
 		        </div>
-      		</div>
+      		<!-- </div> -->
 
 			
 			<!-- Third Card with Modal -->
@@ -204,12 +240,18 @@
 		          <div class="card blue-grey darken-1">
 		            <div class="card-content white-text">
 		              <!-- <span class="card-title">Card Title</span> -->
-		              <i class="material-icons" id="icon">settings</i>
-		              <p>I am a very simple card. I am good at containing small bits of information.
-		              I am convenient because I require little markup to use effectively.</p>
+		              <div text-align="center">
+		              	<i class="material-icons" id="icon">import_contacts</i>
+		              </div>
+			          <div class="cardtitle">
+			             Git Moving
+			          </div>
+		              <div class="cardfont">
+		              		Check out resources on how to get started on Full Stack Developement. Connect with local meet ups. Start learning javascript today! Click Now!
+		              </div>
 		            </div>
 		            	<!-- Modal Trigger -->
-					  <a id="open-model3" class="modal-trigger waves-effect waves-light btn" href="#modal3">Modal</a>
+					  <a id="open-model3" class="modal-trigger waves-effect waves-light yellow darken-1 btn black-text" href="#modal3">Gitty Up</a>
 
 					  <!-- Modal Structure -->
 						  <div id="modal3" class="modal modal-fixed-footer">
@@ -263,15 +305,20 @@
 
 
 		</div>	<!-- end of cards -->	
-		
+		<hr>
 <!-- MEAN & MERN definitions  -->
-		<div id="chooseStack">
+		<div class=row id="chooseStack">
 			<div class="col s12">
-				<div class="col s6 push-s6"><span class="flow-text">
-					<img src="./css/images/mean_N_277X167.png" alt="Mean Stack" height="150" width="325"><h5>MEAN Stack</h5>
-				</span></div>	
-				<div class="col s6 push-s6"><span class="flow-text">
-					<img src="./css/images/mern_js_277X167.png" alt="MERN STACK" height="150" width="325"><h5>MERN Stack</h5>
+				<div class="col s6 m6">
+					<span class="flow-text">
+						<img src="./css/images/mean_N_277X167.png" alt="Mean Stack" height="200" width="325">
+						<h5>MEAN Stack</h5>
+					</span>
+				</div>	
+				<div class="col s6 m6">
+					<span class="flow-text">
+						<img src="./css/images/mern_js_277X167.png" alt="MERN STACK" height="200" width="325">
+						<h5>MERN Stack</h5>
 					</span>
 				</div>
 				<!-- <div id="chooseStack">MEAN<br>stack</div>

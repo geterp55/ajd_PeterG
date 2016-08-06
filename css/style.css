@@ -22,18 +22,38 @@ hex
 */
 
 
+#nav {
+	background-color: #fafdff;
+	font-size: 24px;
+}
+
+#jumbotron {
+	height: auto;
+	background-color: #fdd835;
+	/*color: #2e3538;*/
+	font-family: 'cooper';	
+}
+#jumbotronmission{
+	height: 200px;
+}
+
+#missiontext {
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
 body{
 	background-color: #6d8797;
 	color: #fafdff;
+	font-family: ProximaNova-Light, tahoma, verdana, arial, sans-serif;
 	/*background-color:#F5F5DC;*/
 
 }
 
 
-#jumbotron {
-	height: auto;
-	
-}
 
 #hmPgIntro {
 margin-top: 5%;
@@ -64,9 +84,24 @@ margin-bottom: 5%;
 	height: 400px;
 }
 
+.card-content {
+	height: 250px;
+}
+
+#cardfont {
+	font-size: 65px;
+}
+.cardtitle {
+	text-align: center;
+	font-size: 24px;
+}
+
 #icon{
-	color: #fafdff;
+	color: #fdd835;
 	font-size: 75px;
+	text-align: center;
+    vertical-align: middle;
+    padding-left: 35%;
 }
 
 #chooseStack {
